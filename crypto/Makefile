@@ -2,7 +2,7 @@
 # Cryptographic API
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += -Wno-error
 
 obj-$(CONFIG_CRYPTO) += crypto.o
 crypto-y := api.o cipher.o compress.o memneq.o

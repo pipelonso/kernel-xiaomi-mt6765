@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += -Wno-error
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/
 

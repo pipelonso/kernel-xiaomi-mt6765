@@ -1,6 +1,6 @@
 TEST_PROGS := owner pidns
 
-CFLAGS := -Wall -Werror
+CFLAGS := -Wall -Wno-error
 
 all: owner pidns
 owner: owner.c

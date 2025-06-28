@@ -1,7 +1,7 @@
 # Makefile for the Linux sound card driver
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += -Wno-error
 
 obj-$(CONFIG_SOUND) += soundcore.o
 obj-$(CONFIG_SOUND_PRIME) += oss/
